@@ -17,7 +17,7 @@ text_color = (0, 255, 0)
 (text_width, text_height), baseline = cv2.getTextSize(
     text, font, font_scale, font_thickness
 )
-x, y = 800, 180
+x, y = 900, 180
 
 # Calculate the background rectangle coordinates
 background_start = (x, y - text_height - 15)
